@@ -1,0 +1,48 @@
+/* label and text for times table */
+
+.times_label_wrapper {
+  margin-top: 10px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+input {
+  display: block;
+  width: 70px;
+  margin: 7px auto;
+}
+
+table, .times_label_wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* times table */
+
+* {box-sizing: border-box;}
+
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+
+
+table {
+  table-layout: fixed;
+}
+
+thead th{
+  width: 29px;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  background: lightblue;
+  font-weight: bold;
+}
+
+th {
+  background: lightgreen;
+  color: black;
+}

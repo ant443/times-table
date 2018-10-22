@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>times table</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="times_label_wrapper">
+      <label for="table_size">Enter a number 1-20 to expand the table:</label>
+      <input id="table_size" type="number" name="text" value="1" data-size-now="1" min="1" max="20">
+    </div>
+    <table id="times_table">
+      <caption>times table</caption>
+      <thead>
+        <tr>
+          <th>X</th>
+          <th scope="col">1</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>1</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
