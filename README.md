@@ -9,8 +9,8 @@ Just an interview question I took a bit too seriously.
 ## Installing
 Clone/download repository to harddrive.
 
-##Usage
+## Usage
 Open index.html in the web browser of your choosing.
 
-##Screenshots
+## Screenshots
 Coming soon.
